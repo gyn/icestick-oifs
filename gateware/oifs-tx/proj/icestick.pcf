@@ -1,0 +1,21 @@
+# input clock
+set_io -nowarn i_clk            21  # 12 MHz clock
+
+# LEDs
+set_io -nowarn o_led[0]         99  # D1 - Red
+set_io -nowarn o_led[1]         98  # D2 - Red
+set_io -nowarn o_led[2]         97  # D3 - Red
+set_io -nowarn o_led[3]         96  # D4 - Red
+set_io -nowarn o_led[4]         95  # D5 - Green
+
+# PMOD
+set_io -nowarn o_dbg[0]         78  # PIO1_02
+set_io -nowarn o_dbg[1]         79  # PIO1_03
+set_io -nowarn o_dbg[2]         80  # PIO1_04
+set_io -nowarn o_dbg[3]         81  # PIO1_05
+
+# FTDI Port B UART
+set_io -nowarn i_fscts          4
+set_io -nowarn i_fsdo           7
+set_io -nowarn o_fsclk          8
+set_io -nowarn o_fsdi           9
